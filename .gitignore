@@ -30,3 +30,5 @@ fabric.properties
 node_modules
 html
 JS
+package.json
+package-lock.json
