@@ -1,2 +1,10 @@
-var x = (...args) =>args.sort((a,b)=>a-b)[0]
-console.log(x(15,16,81,81,17,78,74,41,4,65,77))
+for (let i = 0, bool = false; i < 10; i++) {
+  if (bool === true)
+    break
+  for (let j = 0; j < 10; j++) {
+    if (i === 5 && j === 5) {
+      bool = true
+      break;
+    } console.log(i, j);
+  }
+}
