@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    /*let x = parseInt(prompt("Введите количество итераций"), 10);
+    let b
+    if (x){
+        for (b=x;x;) {
+            alert(`hello from bot ${x}\n`)
+        }
+    }else*/
+    let count = 0
+    let x = parseInt(prompt('Введите день недели: '))
+    let weekdaylist = [
+        'null',
+        'monday',
+        'tuesday',
+        'wednesday',
+        'thursday',
+        'friday',
+        'saturday',
+        'sunday'
+    ]
+     while(x > 7) {
+         x -= 7
+         count++
+     }
+    alert(`День недели: ${weekdaylist[x]} + Количество повторений:${count}`)
+</script>
+</body>
+</html>
